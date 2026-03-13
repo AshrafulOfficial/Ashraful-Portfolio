@@ -152,6 +152,9 @@ export default function Hero() {
               <a className="btn-secondary" href="mailto:ashrafulofficialc@gmail.com">
                 Contact
               </a>
+              <a className="btn-resume" href="/Ashraful_Resume.pdf" target="_blank" rel="noreferrer" download>
+                 Download My Resume ↓
+              </a>
             </motion.div>
 
             {/* STATS */}

@@ -90,6 +90,23 @@ body { overflow-x: hidden; }
 
 .content { position: relative; z-index: 1; }
 
+.btn-resume {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: transparent; color: var(--accent2);
+  font-size: 13px; font-family: 'JetBrains Mono', monospace;
+  padding: 13px 28px; border-radius: 8px;
+  text-decoration: none; font-weight: 700;
+  border: 1px solid rgba(16,185,129,0.4);
+  transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.btn-resume:hover {
+  border-color: var(--accent2);
+  background: rgba(16,185,129,0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(16,185,129,0.2);
+}
+
 /* SECTION */
 .section { padding: 100px 0; }
 
